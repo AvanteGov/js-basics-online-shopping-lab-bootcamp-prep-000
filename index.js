@@ -60,9 +60,9 @@ function placeOrder(cardNumber) {
   
   
   if (//arguement is passed){
-    //emtpy cart 
-    
+   
     return `Your total cost is $${sum}, which will be charged to the card ${cardNumber}`
+    cart.length = 0; 
   } else {
     return "Sorry, we don't have a credit card on file for you."
   }
