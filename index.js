@@ -59,7 +59,8 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   
   
-  if (t){
+  if (//arguement is passed){
+    //emtpy cart 
     
     return `Your total cost is $${sum}, which will be charged to the card ${cardNumber}`
   } else {
