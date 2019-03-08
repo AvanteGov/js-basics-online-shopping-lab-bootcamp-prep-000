@@ -57,8 +57,8 @@ function removeFromCart(item) {
 
 
 function placeOrder(cardNumber) {
+  let sum = 0;
   if (cardNumber !== undefined){
-     let sum = 0
  for (let i = 0; i < cart.length; i++){
     sum += cart[i].itemPrice
 }
