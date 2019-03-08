@@ -57,6 +57,9 @@ function removeFromCart(item) {
 
 
 function placeOrder(cardNumber) {
+  for (let i = 0; i < cart.length; i++){
+    
+  }
   
   if (t){
     
